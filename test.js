@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const sequelize = new Sequelize('meubanco','carlos','',{
+const sequelize = new Sequelize('meubanco','carlos','C30s20#15',{
     host:"localhost",
     dialect:"mysql"
 });
@@ -30,12 +30,12 @@ const Usuario = sequelize.define('usuarios',{
 })
 
 Usuario.create({
-    descricao: "gmail",
+    descricao: "Twitter",
     login: "carlosantonino.cs@gmail.com",
-    senha: "ssssss"
+    senha: "xxxxx"
 })
 
-// Usuario.sync({force: true})
+Usuario.sync({force: true})
 
 // Testa conexao com o banco
 // sequelize.authenticate().then(function(){

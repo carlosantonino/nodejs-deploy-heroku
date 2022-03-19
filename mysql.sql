@@ -11,7 +11,7 @@ CREATE TABLE usuarios(
 INSERT INTO usuarios (nome, email , idade) VALUES (
     "Arthur",
     "arthurgabriel@gmail.com",
-     49
+     5
 );
 
 SELECT * FROM usuarios;
