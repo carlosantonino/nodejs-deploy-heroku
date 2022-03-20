@@ -10,5 +10,4 @@
 
 ## Criar Rotas no express
 
-## https://www.youtube.com/watch?v=UMI7kFwmAHo&list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B&index=7
 
