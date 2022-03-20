@@ -17,7 +17,7 @@ const port = process.env.PORT || 3000;
     // }); 
     
     app.get("/", function (req, res) {
-        res.send("Olá, Fabrica de Sinopse!");
+        res.send("Olá world!");
     })
 
 app.listen(port, function(){
